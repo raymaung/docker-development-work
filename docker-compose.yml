@@ -1,0 +1,7 @@
+version: '3'
+services:
+  express:
+    build: ./elixir
+    volumes:
+     - .:/code
+    working_dir: /code
